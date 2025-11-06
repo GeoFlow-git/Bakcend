@@ -3,4 +3,5 @@ fastapi
 sqlalchemy
 pymysql
 email-validator
-jose
+JWTError
+jwt
