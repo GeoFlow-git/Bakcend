@@ -4,4 +4,4 @@ sqlalchemy
 pymysql
 email-validator
 python-jose[cryptography]
-
+passlib
