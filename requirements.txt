@@ -3,3 +3,4 @@ fastapi
 sqlalchemy
 pymysql
 email-validator
+jose
