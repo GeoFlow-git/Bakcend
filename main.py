@@ -18,8 +18,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",  # para desarrollo local (Vite)
-        "https://geoflow-git.github.io/GeoFlow-website",  # cuando publiques en GitHub Pages
-        "https://geoflow-git.github.io",  #    cuando el backend este subido a railway.
+        "https://geoflow-git.github.io/GeoFlow-website",  # cuando el frontend se publique en GitHub Pages
+        "https://geoflow-git.github.io",  #  cuando el frontend se publique en GitHub Pages, pero el backend este subido a railway.
+        "https://geoflow.com.mx",        #  cuando el frontend ya tiene su propio dominio
     ],
     allow_credentials=True,
     allow_methods=["*"],
